@@ -62,7 +62,7 @@ class _MyAppState extends State<MyApp> {
                               height: 350,
                               width: 350,
                               fit: BoxFit.cover,
-                              'assets/images/2503508.png');
+                              'assets/moviePic/2503508.png');
                         },
                       ),
 
