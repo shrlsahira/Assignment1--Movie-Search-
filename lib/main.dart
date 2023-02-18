@@ -56,11 +56,11 @@ class _MyAppState extends State<MyApp> {
                     child: Column(children: [
                       Image.network(
                         poster,
-                        height: 250,
+                        height: 550,
                         errorBuilder: (context, error, stackTrace) {
                           return Image.asset(
-                              height: 350,
-                              width: 350,
+                              height: 550,
+                              width: 550,
                               fit: BoxFit.cover,
                               'assets/moviePic/2503508.png');
                         },
@@ -70,7 +70,7 @@ class _MyAppState extends State<MyApp> {
                       Text(
                         title,
                         style: const TextStyle(
-                            fontSize: 24, fontWeight: FontWeight.bold),
+                            fontSize: 30, fontWeight: FontWeight.bold),
                       ),
                       Text(year),
                       Text(actors),
